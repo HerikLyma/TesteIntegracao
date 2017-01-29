@@ -21,7 +21,7 @@ install:
 
 script:
   - source /opt/qt55/bin/qt55-env.sh
-  - cd TesteIntegracao
+  - cd Teste
   - /opt/qt55/bin/qmake Testes.pro
   - make
   - ./Testes
