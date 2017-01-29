@@ -26,12 +26,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 
-SOURCES += tst_hello.cpp \
-    hello.cpp
+SOURCES += \
+    classes/hello.cpp \
+    tests/tst_hello.cpp \
+    main.cpp
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
 
 HEADERS += \
-    hello.h
+    classes/hello.h \
+    tests/tst_hello.h
 
 INCLUDEPATH += "/home/herik/Testes"
 
