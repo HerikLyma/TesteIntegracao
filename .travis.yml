@@ -22,7 +22,7 @@ install:
 script:
   - source /opt/qt57/bin/qt57-env.sh;
   - cd Teste
-  - /opt/qt55/bin/qmake Testes.pro
+  - /opt/qt57/bin/qmake Testes.pro
   - make
   - ./Testes
   - rm *tst_*
